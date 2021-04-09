@@ -1,0 +1,9 @@
+
+cd C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\sprint2
+git clone https://github.com/esteban-lebreton/sprint2.git
+git add LoupGarou/
+git status
+git config --global user.email "Esteban"
+git commit -m "Lebreton premier commit"
+git status
+git push
