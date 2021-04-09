@@ -29,46 +29,68 @@ namespace TestLogique
             G1.lesJoueurs.Add(6, j6);
 
             G1.attribuerDesRoles();
-            foreach (KeyValuePair<int, Joueur> element in G1.lesJoueurs)
+            foreach (KeyValuePair<int, Joueur> joueur in G1.lesJoueurs)
             {
-                Console.WriteLine(element.Key + " -> " + element.Value.leLogin + "   " + element.Value.leRole.leLibelle + " = " + element.Value.leRole.leDescriptif);
-                if (element.Value.leRole.leLibelle =="Loup garou")
+                Console.WriteLine(joueur.Key + " -> " + joueur.Value.leLogin + "   " + joueur.Value.leRole.leLibelle + " = " + joueur.Value.leRole.leDescriptif);
+                if (joueur.Value.leRole.leLibelle == "Loup garou")
                 {
-                    G1.lesLoupsGarous.Add(element.Key, element.Value);
+                    G1.lesLoupsGarous.Add(joueur.Key, joueur.Value);
+                }
+                else if (joueur.Value.leRole.leLibelle == "Villageois")
+                {
+                    G1.lesVillageois.Add(joueur.Key, joueur.Value);
                 }
                 else
                 {
-                    G1.lesVillageois.Add(element.Key, element.Value);
+                    Console.WriteLine("Erreur");
                 }
             }
-            /*
-            foreach(KeyValuePair<int, Joueur> element in G1.lesLoupsGarous)
-            {
-                Console.WriteLine(element.Key + " -> " + element.Value.leRole.leLibelle);
-            }
 
-            foreach (KeyValuePair<int, Joueur> element in G1.lesVillageois)
+            /*foreach (KeyValuePair<int, Joueur> element in G1.lesLoupsGarou)
             {
-                Console.WriteLine(element.Key + " -> " + element.Value.leRole.leLibelle);
-            }
-            */
+                Console.WriteLine(element.Key + " " + element.Value.leRole.leLibelle);
+            }*/
+
+            /*foreach (KeyValuePair<int, Joueur> element in G1.lesVillageois)
+            {
+                Console.WriteLine(element.Key + " " + element.Value.leRole.leLibelle);
+            }*/
 
             G1.init();
 
             G1.setlaNarration(0);
-            Console.WriteLine(G1.laNarration);
+            Console.WriteLine("\n" + G1.laNarration);
+
+            Jour Jour1 = new Jour();
+
 
             G1.setlaNarration(1);
-            Console.WriteLine(G1.laNarration);
-
-            G1.setlaNarration(2);
-            Console.WriteLine(G1.laNarration);
+            Console.WriteLine("\n" + G1.laNarration + "\n");
 
             G1.activerDesactiver(G1.lesLoupsGarous, true);
-            for(int i=0; i<G1.lesLoupsGarous.Count; i++)
+
+            foreach (KeyValuePair<int, Joueur> element in G1.lesLoupsGarous)
+            {
+                Console.WriteLine(element.Key + " " + element.Value.leRole.leLibelle + " " + element.Value.estActif);
+            }
+
+            G1.setlaNarration(4);
+
+            for (int i = 1; i < G1.lesLoupsGarous.Count + 1; i++)
             {
                 G1.voter(i);
+                G1.verifierVote(i);
+                G1.validationVote();
             }
+
+            G1.MAJlesJoueurs();
+
+            G1.initVote();
+
+            G1.setlaNarration(3);
+            Console.WriteLine("\n" + G1.laNarration + "\n");
+
+            G1.verifierGagnant();
 
         }
     }
