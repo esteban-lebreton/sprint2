@@ -1,0 +1,17 @@
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\bin\Debug\netcoreapp3.1\TestLogique.exe
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\bin\Debug\netcoreapp3.1\TestLogique.deps.json
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\bin\Debug\netcoreapp3.1\TestLogique.runtimeconfig.json
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\bin\Debug\netcoreapp3.1\TestLogique.runtimeconfig.dev.json
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\bin\Debug\netcoreapp3.1\TestLogique.dll
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\bin\Debug\netcoreapp3.1\TestLogique.pdb
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\bin\Debug\netcoreapp3.1\LoupGarou.exe
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\bin\Debug\netcoreapp3.1\LoupGarou.pdb
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\bin\Debug\netcoreapp3.1\LoupGarou.exe.config
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\obj\Debug\netcoreapp3.1\TestLogique.csprojAssemblyReference.cache
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\obj\Debug\netcoreapp3.1\TestLogique.AssemblyInfoInputs.cache
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\obj\Debug\netcoreapp3.1\TestLogique.AssemblyInfo.cs
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\obj\Debug\netcoreapp3.1\TestLogique.csproj.CoreCompileInputs.cache
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\obj\Debug\netcoreapp3.1\TestLogique.csproj.CopyComplete
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\obj\Debug\netcoreapp3.1\TestLogique.dll
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\obj\Debug\netcoreapp3.1\TestLogique.pdb
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\TestLogique\obj\Debug\netcoreapp3.1\TestLogique.genruntimeconfig.cache

@@ -1,0 +1,20 @@
+D:\SIO1\FARIA Samuel\TP C#\LoupGarou\LoupGarou\LoupGarou\bin\Debug\LoupGarou.exe.config
+D:\SIO1\FARIA Samuel\TP C#\LoupGarou\LoupGarou\LoupGarou\bin\Debug\LoupGarou.exe
+D:\SIO1\FARIA Samuel\TP C#\LoupGarou\LoupGarou\LoupGarou\bin\Debug\LoupGarou.pdb
+D:\SIO1\FARIA Samuel\TP C#\LoupGarou\LoupGarou\LoupGarou\obj\Debug\LoupGarou.csprojAssemblyReference.cache
+D:\SIO1\FARIA Samuel\TP C#\LoupGarou\LoupGarou\LoupGarou\obj\Debug\LoupGarou.Plateforme.resources
+D:\SIO1\FARIA Samuel\TP C#\LoupGarou\LoupGarou\LoupGarou\obj\Debug\LoupGarou.Properties.Resources.resources
+D:\SIO1\FARIA Samuel\TP C#\LoupGarou\LoupGarou\LoupGarou\obj\Debug\LoupGarou.csproj.GenerateResource.cache
+D:\SIO1\FARIA Samuel\TP C#\LoupGarou\LoupGarou\LoupGarou\obj\Debug\LoupGarou.csproj.CoreCompileInputs.cache
+D:\SIO1\FARIA Samuel\TP C#\LoupGarou\LoupGarou\LoupGarou\obj\Debug\LoupGarou.exe
+D:\SIO1\FARIA Samuel\TP C#\LoupGarou\LoupGarou\LoupGarou\obj\Debug\LoupGarou.pdb
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\LoupGarou\bin\Debug\LoupGarou.exe.config
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\LoupGarou\bin\Debug\LoupGarou.exe
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\LoupGarou\bin\Debug\LoupGarou.pdb
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\LoupGarou\obj\Debug\LoupGarou.csprojAssemblyReference.cache
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\LoupGarou\obj\Debug\LoupGarou.Plateforme.resources
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\LoupGarou\obj\Debug\LoupGarou.Properties.Resources.resources
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\LoupGarou\obj\Debug\LoupGarou.csproj.GenerateResource.cache
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\LoupGarou\obj\Debug\LoupGarou.csproj.CoreCompileInputs.cache
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\LoupGarou\obj\Debug\LoupGarou.exe
+C:\Users\estel\OneDrive\Documents\Cours\SIO\PPE\LoupGarou\LoupGarou\obj\Debug\LoupGarou.pdb
