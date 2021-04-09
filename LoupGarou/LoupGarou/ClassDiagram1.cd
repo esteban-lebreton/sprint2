@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LoupGarou.Jeu">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <AssociationLine Name="lesLoupsGarous" Type="LoupGarou.Joueur">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.243" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="leMaire" Type="LoupGarou.Joueur">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.243" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="lesJoueurs" Type="LoupGarou.Joueur">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.243" Y="0.043" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="lesJoueursActifs" Type="LoupGarou.Joueur">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.243" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="lesJoueursEnBallotage" Type="LoupGarou.Joueur">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.243" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="lesVillageois" Type="LoupGarou.Joueur">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.252" Y="0.052" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEJAAAhAAYAEAAQQQAAAAAAAAAAEAQIAAABAAAgAEQE=</HashCode>
+      <FileName>Jeu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="leMaire" />
+      <Field Name="leJourEnCour" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="lesLoupsGarous" />
+      <Field Name="lesJoueurs" />
+      <Field Name="lesJoueursActifs" />
+      <Field Name="lesJoueursEnBallotage" />
+      <Field Name="lesVillageois" />
+      <Field Name="lesRoles" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LoupGarou.Client">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhEAAAAAAAAgAAQAAUAACQAAAAAAAAAAEEAAAAAAAI=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoupGarou.Joueur">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="LoupGarou.Client" ManuallyRouted="true">
+      <Path>
+        <Point X="10.25" Y="1.25" />
+        <Point X="10.25" Y="0.875" />
+        <Point X="8.625" Y="0.875" />
+        <Point X="8.625" Y="5.816" />
+        <Point X="1.25" Y="5.816" />
+        <Point X="1.25" Y="4.511" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAACAAAAAAAAQEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Joueur.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="leRole" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LoupGarou.Jour">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQCAAAAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Jour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoupGarou.Role">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
