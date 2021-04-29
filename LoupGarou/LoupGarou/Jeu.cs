@@ -199,6 +199,7 @@ namespace LoupGarou
             {
                 if (element.Value.leRole == lesRoles[0] || element.Value.leRole == lesRoles[1])
                 {
+                    if(!lesVillageois.ContainsKey(element.Key))//A rajouter pour éviter les erreurs
                     lesVillageois.Add(element.Key, element.Value);
                 }
                 else
