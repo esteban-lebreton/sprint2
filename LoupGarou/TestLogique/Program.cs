@@ -71,7 +71,7 @@ namespace TestLogique
 
             foreach (KeyValuePair<int, Joueur> element in G1.lesLoupsGarous)
             {
-                Console.WriteLine(element.Key + " " + element.Value.leRole.leLibelle + " " + element.Value.estActif);
+                Console.WriteLine("Joueurs n° "+element.Key + " " +" est un "+ element.Value.leRole.leLibelle + " : " + element.Value.estActif);
             }
 
             G1.setlaNarration(4);
@@ -91,6 +91,22 @@ namespace TestLogique
             Console.WriteLine("\n" + G1.laNarration + "\n");
 
             G1.verifierGagnant();
+
+            G1.activerDesactiver(G1.lesJoueursActifs, true);
+
+            G1.setlaNarration(4);
+            Console.WriteLine("\n" + G1.laNarration + "\n");
+
+            for (int i = 1; i < G1.lesVillageois.Count + 1; i++)
+            {
+                G1.voter(i);
+                G1.verifierVote(i);
+                G1.validationVote();
+            }
+            G1.setlaNarration(4);
+            Console.WriteLine("\n" + G1.laNarration + "\n");
+
+            G1.MAJlesJoueurs();
 
         }
     }

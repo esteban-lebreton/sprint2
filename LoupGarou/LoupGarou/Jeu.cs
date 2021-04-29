@@ -99,10 +99,10 @@ namespace LoupGarou
                 case 1: laNarration = "<--- 1er Jour -->";
                     break;
 
-                case 2: laNarration = "<--- La nuit arrive --->\n<-- Le village s'endort -->";
+                case 2: laNarration = "<--- La nuit arrive et Le village s'endort -->";
                     break;
 
-                case 3: laNarration = "<--- Le jour se lève --->\n<-- Le village se réveille -->";
+                case 3: laNarration = "<--- Le jour se lève et Le village se réveille -->";
                     break;
 
                 case 4: laNarration = "Texte pour voter";
@@ -137,7 +137,6 @@ namespace LoupGarou
         }
         public bool verifierVote(int choix)
         {
-
             bool result = false;
             if (validationVote() != 0)
             {
@@ -148,7 +147,6 @@ namespace LoupGarou
 
         public int validationVote()
         {
-
             int result = 0;
             for(int i = 0; i < lesJoueursEnBallotage.Count; i++)
             {
@@ -199,7 +197,10 @@ namespace LoupGarou
             {
                 if (element.Value.leRole == lesRoles[0] || element.Value.leRole == lesRoles[1])
                 {
-                    lesVillageois.Add(element.Key, element.Value);
+                    if (!lesVillageois.ContainsKey(element.Key))
+                    {
+                        lesVillageois.Add(element.Key, element.Value);
+                    }
                 }
                 else
                 {
