@@ -53,6 +53,7 @@ namespace LoupGarou
             NetworkStream _Network = new NetworkStream(laCom.leSocket);
             leMessageObtenu = new StreamReader(_Network);
             leMessageAEnvoyer = new StreamWriter(_Network);
+            //Penser à creer un nouveau client et l'ajouter à la collection.
             string ipport = laCom.leSocket.RemoteEndPoint.ToString();
             while (true)
             {
