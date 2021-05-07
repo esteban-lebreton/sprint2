@@ -157,11 +157,12 @@ namespace LoupGarou
                     {
                         lesJoueursEnBallotage.Remove(lesJoueursEnBallotage.ElementAt(i - 1).Key);
                     }
+                }
                     else if (result > lesJoueursEnBallotage.ElementAt(i).Value.leNbrVote)
                     {
                         lesJoueursEnBallotage.Remove(lesJoueursEnBallotage.ElementAt(i).Key);
                     }
-                }
+                
             }
             if (lesJoueursEnBallotage.Count == 1)
             {
